@@ -4,7 +4,7 @@ public class Concatena implements Markdown {
 
     public Concatena(Markdown... lista) {
         for(Markdown markdown : lista) {
-            this.textoExibido.concat(markdown.exibe());
+            this.textoExibido = this.textoExibido.concat(markdown.exibe());
         }
     }
 

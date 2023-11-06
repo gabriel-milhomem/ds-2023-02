@@ -5,6 +5,6 @@ public class Titulo extends ElementoMarkdown {
 
 	@Override
 	public String exibe() {
-		return "\n# ".concat(markdown.exibe());
+		return "\n# ".concat(markdown.exibe()).concat("\n");
 	}
 }

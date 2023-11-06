@@ -4,10 +4,11 @@ public class Exemplo {
         Markdown primeiraLinha = new Concatena(
             new Texto("Uma simples linha, com "), 
             new Negrito(new Texto("negrito")), 
-            new Texto("e"),
+            new Texto(" e "),
             new Italico(new Texto("itálico")),
             new Texto(".")
         );
+
         Markdown segundaLinha = new Item(
             new Concatena(
                 new Texto("Primeiro item da linha com "),
